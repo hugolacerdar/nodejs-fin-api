@@ -4,8 +4,6 @@ import { app } from "../../../../app";
 import request from "supertest";
 import { v4 as uuid4 } from "uuid";
 import { hash } from "bcryptjs";
-import { User } from "../../entities/User";
-import { IncorrectEmailOrPasswordError } from "./IncorrectEmailOrPasswordError";
 
 let connection: Connection;
 let user_id: string;
